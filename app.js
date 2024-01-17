@@ -11,12 +11,12 @@ function calcular() {
     const op1 = parseFloat(txtop1.value);
     const op2 = parseFloat(txtop2.value);
 
-    if((operacion == "+" || operador == "-" || operador == "*" || operador == "/") && !isNaN(op1) && !isNaN(op2)){
+    if((operacion == "+" || operacion == "-" || operacion == "*" || operacion == "/") && !isNaN(op1) && !isNaN(op2)){
         let resultado;
         switch(operacion){
             case "+":
                 resultado = op1 + op2
-                break;
+                break; // sirve oa
             case "-":
                 resultado = op1 - op2
                 break;
@@ -32,3 +32,15 @@ function calcular() {
         pResultado.innerText = "calculo imposuble";
     }
 }
+
+// constantes son variables que no tienen cambios,  es decir cuando se le asigna un valor no se puede remover
+// get elemente by id es seleccionar un elemento del documento a traves del valor del id que se le haya asignado en el html
+// el metodo add event listener es yn escuchador que indica al navegador que este atento a la interaccion del usuario . la ventaja es que se escribe totalmente en JS sin necesidad de tocar html
+// function: basicamente un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para   que un procedimiento califique como funcion, debe tomar alguna entrada y devolver una salida donde hay alguna relacion obvia entre entrada y salida
+// if if else: ejecuta una sentencia si una condicion especifica es evaluada como verdadera. si la condicion es evaluada, otra puede ser ejecutada
+/* if (condicion){
+    etc etc 
+}else
+switch:
+
+*/
