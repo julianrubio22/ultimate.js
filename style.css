@@ -21,15 +21,11 @@ input {
     background: darkcyan;
     color: white;
     font-size: 27px;
-    /* font-size: 22px; */
 }
 
-:hover #calcular{
-    transition: all 1.7s;
-    background: rgb(16, 32, 121);
-}
 
 form {
     background: rgb(53, 102, 158);
     margin: 15px 170px;
+    padding: 25px;
 }
