@@ -27,9 +27,12 @@ function calcular() {
                 resultado = op1/op2
                 break;
         }
+        pResultado.style = "color: white;"
         pResultado.innerText = "= " + resultado;
     }else{
-        pResultado.innerText = "calculo imposuble";
+        pResultado.style = "color: red;"
+        pResultado.innerText = "CALCULO IMPOSIBLE";
+        
     }
 }
 

@@ -8,10 +8,13 @@
 </head>
 <body>
     <h1>Calculadora HTML</h1>
-    <form action="">
-        <input type="text" id="op1" placeholder="first number">
+    <form action="" method="dialog">
+        <label for="number">Numero:</label>
+        <input type="text" id="op1" placeholder="primer numero">
+        <label for="text">Sumar,Restar, Dividir, Multiplicar: </label>
         <input type="text" id="operacion" placeholder="+, -, *, /">
-        <input type="text" id="op2" placeholder="second number">
+        <label for="number">Numero:</label>
+        <input type="text" id="op2" placeholder="segundo numero">
         <input type="submit" value="calcular" id="calcular">
         <p id="resultado"></p>
     </form>

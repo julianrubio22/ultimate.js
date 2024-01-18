@@ -7,25 +7,42 @@ h1 {
     color: white;
 }
 
+label{
+    color: white;
+}
+
 input {
     display: block;
     margin: auto;
     margin-bottom: 15px;
+    height: 40px;
+    width: 175px;
 }
 
 #calcular{
-    margin-top: 31px;
     padding: 20px;
-    height: 70px;
-    width: 140px;
+    height: 60px;
+    width: 125px;
     background: darkcyan;
     color: white;
-    font-size: 27px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
+#calcular:hover {
+    background-color: rgb(10, 113, 113);;
+}
+
+#calcular:active {
+    background: rgb(10, 113, 113);
+}
 
 form {
     background: rgb(53, 102, 158);
-    margin: 15px 170px;
-    padding: 25px;
+    margin: 15px 450px;
+    padding: 20px;
+}
+
+p{
+    display: none;
 }
