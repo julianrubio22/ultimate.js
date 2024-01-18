@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(16, 32, 121);
+}
+h1 {
+    color: white;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#calcular{
+    margin-top: 31px;
+    padding: 20px;
+    height: 70px;
+    width: 140px;
+    background: darkcyan;
+    color: white;
+    font-size: 27px;
+    /* font-size: 22px; */
+}
+
+:hover #calcular{
+    transition: all 1.7s;
+    background: rgb(16, 32, 121);
+}
+
+form {
+    background: rgb(53, 102, 158);
+    margin: 15px 170px;
+}
