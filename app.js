@@ -29,9 +29,11 @@ function calcular() {
         }
         pResultado.style = "color: white;"
         pResultado.innerText = "= " + resultado;
+        document.getElementById("resultado").style.display = "block"
     }else{
         pResultado.style = "color: red;"
         pResultado.innerText = "CALCULO IMPOSIBLE";
+        document.getElementById("resultado").style.display = "block"
         
     }
 }
