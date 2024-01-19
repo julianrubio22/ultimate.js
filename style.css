@@ -9,6 +9,7 @@ h1 {
 
 label{
     color: white;
+    
 }
 
 input {
@@ -16,7 +17,7 @@ input {
     margin: auto;
     margin-bottom: 15px;
     height: 40px;
-    width: 175px;
+    width: 230px;
 }
 
 #calcular{
@@ -41,4 +42,9 @@ form {
     background: rgb(53, 102, 158);
     margin: 15px 450px;
     padding: 20px;
+}
+
+button{
+    border: 0;
+    border-radius: 10px;
 }
