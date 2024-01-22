@@ -37,10 +37,16 @@ function calcular() {
         
     }
 }
-
+const botonMostrar = document.getElementById("mostrar")
+botonMostrar.addEventListener('click', mostrar)
 var parrafo = document.getElementById("miParrafo");
-parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
-parrafo.style.color = "white";
+function mostrar(){
+    parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
+    parrafo.style.color = "white";  
+
+}
+
+
 
 
 

@@ -70,3 +70,21 @@ button{
     justify-content: center;
 }
 
+/*boton debajo*/
+#mostrar {
+    padding: 20px;
+    height: 70px;
+    width: 125px;
+    background: darkcyan;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#mostrar:hover {
+    background-color: rgb(10, 113, 113);;
+}
+
+#mostrar:active {
+    background: rgb(10, 113, 113);
+}
