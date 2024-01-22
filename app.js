@@ -38,6 +38,24 @@ function calcular() {
     }
 }
 
+var parrafo = document.getElementById("miParrafo");
+parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
+parrafo.style.color = "white";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // constantes son variables que no tienen cambios,  es decir cuando se le asigna un valor no se puede remover
 // get elemente by id es seleccionar un elemento del documento a traves del valor del id que se le haya asignado en el html
 // el metodo add event listener es yn escuchador que indica al navegador que este atento a la interaccion del usuario . la ventaja es que se escribe totalmente en JS sin necesidad de tocar html
