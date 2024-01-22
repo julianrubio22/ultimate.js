@@ -52,22 +52,21 @@ button{
 /*caja con imagenes*/
 
 .container{
-    display: flex;
     background-color: rgb(27, 24, 173);
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
-    padding-bottom: 125px;
+    padding-bottom: 135px;
 }
 
 .container div {
     display: flex;
-    flex: auto;
+    justify-content: space-between;
 }
 
 .imagenes{
     width: 450px;
     height: 315px;
-    justify-content: center;
+    flex-direction: column;
 }
 
 /*boton debajo*/
@@ -87,4 +86,26 @@ button{
 
 #mostrar:active {
     background: rgb(10, 113, 113);
+}
+
+#precio {
+    background: darkcyan;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    width: 180px;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+#precio:hover {
+    background-color: rgb(10, 113, 113);;
+}
+
+#precio:active {
+    background: rgb(10, 113, 113);
+}
+
+#miParrafo {
+    display: none;
 }

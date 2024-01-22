@@ -37,16 +37,30 @@ function calcular() {
         
     }
 }
-const botonMostrar = document.getElementById("mostrar")
-botonMostrar.addEventListener('click', mostrar)
+
+
+const botonMostrar = document.getElementById("mostrar");
+botonMostrar.addEventListener('click', mostrar);
+
 var parrafo = document.getElementById("miParrafo");
 function mostrar(){
-    parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
-    parrafo.style.color = "white";  
-
+    if(parrafo.style.display === "block"){
+        parrafo.style.display == "none";
+    }else{
+        parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
+        parrafo.style.color = "white";  
+        document.getElementById("miParrafo").style.display = "block";
+    }
 }
+//---------------------------
+const botonPrecio = document.getElementById("precio");
+botonPrecio.addEventListener('click', precio);
 
-
+var valor = document.getElementById("precio");
+function precio(){
+    valor.innerHTML = "$5.000";
+    valor.style.color = "white";
+}
 
 
 
