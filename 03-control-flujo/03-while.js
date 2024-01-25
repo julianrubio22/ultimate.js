@@ -10,14 +10,14 @@ while (i < 10) {
 
 console.log('fuera del while');
 
-*/let i = 2;
+*/let i = 2; // evaluar primero la condicion y despues ejecuta
 while (i < 2) {
     if (i % 2 == 0) {
         console.log('numero par', i);
     }
     i++;
 }
-do{
+do{ // ejecutar y despues evaluar la condicion
     if (i % 2 == 0){
         console.log('numero par', i);
     }

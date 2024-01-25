@@ -38,32 +38,58 @@ function calcular() {
     }
 }
 
-
 const botonMostrar = document.getElementById("mostrar");
 botonMostrar.addEventListener('click', mostrar);
 
 var parrafo = document.getElementById("miParrafo");
 function mostrar(){
-    if(parrafo.style.display === "block"){
-        parrafo.style.display == "none";
-    }else{
-        parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
-        parrafo.style.color = "white";  
-        document.getElementById("miParrafo").style.display = "block";
-    }
+    parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
+    parrafo.style.color = "white";  
+    document.getElementById("miParrafo").style.display = "block"
 }
 //---------------------------
-const botonPrecio = document.getElementById("precio");
-botonPrecio.addEventListener('click', precio);
+//document.getElementById("precio").addEventListener("click", function (e){
+//    if (e.target.textContent === "ver precio"){
+//       e.target.textContent = "$5.000";
+//        console.log("selecciono el ver precio")
+//    }else {
+//        e.target.textContent = "Ver precio";
+ //   }
+//});
+/*const botones = ['precio1', 'precio2', 'precio3'];
 
-var valor = document.getElementById("precio");
-function precio(){
-    valor.innerHTML = "$5.000";
-    valor.style.color = "white";
+function miFuncion(botonPrecio){
+    document.getElementsByClassName(botonPrecio).addEventListener("click", function (e){
+        if (e.target.textContent === "ver precio"){
+            e.target.textContent = "5.000";
+        }else {
+            e.target.textContent = "Ver precio";
+        }
+    });
 }
 
+botones.forEach(miFuncion);*/
+/*var elemontoConClase = document.querySelector(".botonPrecio");
+
+elemontoConClase.addEventListener("click", function (e){
+    if (e.target.textContent === "ver precio"){
+        e.target.textContent = "5.000";
+    }else {
+        e.target.textContent = "Ver precio";
+    }
+});*/
 
 
+var elementosConClase = document.getElementsByClassName("botonPrecio");
+
+for (var i = 0; i < elementosConClase.length; i++) {
+    elementosConClase[i].style.color = "white";
+    if (i.target.textContent === "ver precio"){
+        i.target.textContent = "5.000";
+    }else {
+        i.target.textContent = "Ver precio";
+    }
+}
 
 
 

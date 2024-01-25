@@ -88,7 +88,7 @@ button{
     background: rgb(10, 113, 113);
 }
 
-#precio {
+.botonPrecio {
     background: darkcyan;
     cursor: pointer;
     font-size: 25px;
@@ -98,11 +98,11 @@ button{
     margin-top: 60px;
 }
 
-#precio:hover {
+.botonPrecio:hover {
     background-color: rgb(10, 113, 113);;
 }
 
-#precio:active {
+.botonPrecio:active {
     background: rgb(10, 113, 113);
 }
 
