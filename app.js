@@ -83,13 +83,14 @@ elemontoConClase.addEventListener("click", function (e){
 var elementosConClase = document.getElementsByClassName("botonPrecio");
 
 for (var i = 0; i < elementosConClase.length; i++) {
-    elementosConClase[i].style.color = "white";
-    if (i.target.textContent === "ver precio"){
-        i.target.textContent = "5.000";
-    }else {
-        i.target.textContent = "Ver precio";
+    elementosConClase[i].addEventListener("click", function(e){
+        if (e.target.textContent === "Ver precio"){
+            e.target.textContent = "5.000";
+        }else {
+            e.target.textContent = "Ver precio";
+        }
     }
-}
+)};
 
 
 
