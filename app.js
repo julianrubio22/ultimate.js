@@ -37,48 +37,7 @@ function calcular() {
         
     }
 }
-
-const botonMostrar = document.getElementById("mostrar");
-botonMostrar.addEventListener('click', mostrar);
-
-var parrafo = document.getElementById("miParrafo");
-function mostrar(){
-    parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
-    parrafo.style.color = "white";  
-    document.getElementById("miParrafo").style.display = "block"
-}
-//---------------------------
-//document.getElementById("precio").addEventListener("click", function (e){
-//    if (e.target.textContent === "ver precio"){
-//       e.target.textContent = "$5.000";
-//        console.log("selecciono el ver precio")
-//    }else {
-//        e.target.textContent = "Ver precio";
- //   }
-//});
-/*const botones = ['precio1', 'precio2', 'precio3'];
-
-function miFuncion(botonPrecio){
-    document.getElementsByClassName(botonPrecio).addEventListener("click", function (e){
-        if (e.target.textContent === "ver precio"){
-            e.target.textContent = "5.000";
-        }else {
-            e.target.textContent = "Ver precio";
-        }
-    });
-}
-
-botones.forEach(miFuncion);*/
-/*var elemontoConClase = document.querySelector(".botonPrecio");
-
-elemontoConClase.addEventListener("click", function (e){
-    if (e.target.textContent === "ver precio"){
-        e.target.textContent = "5.000";
-    }else {
-        e.target.textContent = "Ver precio";
-    }
-});*/
-
+//----------------
 
 var elementosConClase = document.getElementsByClassName("botonPrecio");
 
@@ -92,16 +51,17 @@ for (var i = 0; i < elementosConClase.length; i++) {
     }
 )};
 
+//-------------------------
 
+const botonMostrar = document.getElementById("mostrar");
+botonMostrar.addEventListener('click', mostrar);
 
-
-
-
-
-
-
-
-
+var parrafo = document.getElementById("miParrafo");
+function mostrar(){
+    parrafo.innerHTML = "esto es creado desde un id en html y texto es modificado desde JS";
+    parrafo.style.color = "white";  
+    document.getElementById("miParrafo").style.display = "block"
+}
 
 // constantes son variables que no tienen cambios,  es decir cuando se le asigna un valor no se puede remover
 // get elemente by id es seleccionar un elemento del documento a traves del valor del id que se le haya asignado en el html
