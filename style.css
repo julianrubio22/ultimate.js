@@ -110,3 +110,13 @@ h3{
 #miParrafo {
     display: none;
 }
+
+#reloj {
+    color: white;
+    text-align: justify;
+    margin-left: 20px;
+    background: red;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+}
