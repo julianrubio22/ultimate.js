@@ -62,6 +62,34 @@ function mostrar(){
     parrafo.style.color = "white";  
     document.getElementById("miParrafo").style.display = "block"
 }
+//---------
+
+//var nombre = prompt('hola, dime tu nombre');
+//alert("ahora estas en la matrix, " + nombre);
+//document.write("ahora estas en la matrix, " + nombre)
+//var num1, num2, suma
+
+//num1 = parseFloat(prompt("ingresar el primer numero:"));
+//num2 = parseFloat(prompt("ingresar el segundo numero:"));
+//suma = num1 + num2
+
+//document.write('el resultado de la suma de: ' + suma);
+
+/*var num1, num2, suma, num3, resultado
+
+num1 = parseFloat(prompt("ingresar el primer numero:"));
+num2 = parseFloat(prompt("ingresar el segundo numero:"));
+//num3 = parseFloat(prompt("ingresa el tercer numero"));
+suma = num1 + num2
+
+document.write("el resulrado de la suma es: "+ suma);
+
+num3 = parseFloat(prompt("ingresa el tercer numero para multiplicar con la suma anterior"));
+resultado = num3 + suma
+document.write("el resultado deñ numero tres es: " + resultado);*/
+
+
+
 
 // constantes son variables que no tienen cambios,  es decir cuando se le asigna un valor no se puede remover
 // get elemente by id es seleccionar un elemento del documento a traves del valor del id que se le haya asignado en el html

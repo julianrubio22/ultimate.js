@@ -61,14 +61,18 @@ button{
 .container div {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .imagenes{
-    width: 450px;
-    height: 315px;
+    width: 385px;
+    height: 300px;
     flex-direction: column;
 }
 
+h3{ 
+    color: white;
+}
 /*boton debajo*/
 #mostrar {
     padding: 20px;
@@ -93,9 +97,6 @@ button{
     cursor: pointer;
     font-size: 25px;
     color: white;
-    width: 180px;
-    margin-left: 130px;
-    margin-top: 60px;
 }
 
 .botonPrecio:hover {
@@ -104,6 +105,14 @@ button{
 
 .botonPrecio:active {
     background: rgb(10, 113, 113);
+}
+
+.precio2 {
+    margin-top: 31px;
+}
+
+#precio3 {
+    margin-top: 31px;
 }
 
 #miParrafo {
