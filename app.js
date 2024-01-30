@@ -81,42 +81,9 @@ setInterval(actualizarReloj, 1000);
 
 actualizarReloj();
 
-
-//var nombre = prompt('hola, dime tu nombre');
-//alert("ahora estas en la matrix, " + nombre);
-//document.write("ahora estas en la matrix, " + nombre)
-//var num1, num2, suma
-
-//num1 = parseFloat(prompt("ingresar el primer numero:"));
-//num2 = parseFloat(prompt("ingresar el segundo numero:"));
-//suma = num1 + num2
-
-//document.write('el resultado de la suma de: ' + suma);
-
-/*var num1, num2, suma, num3, resultado
-
-num1 = parseFloat(prompt("ingresar el primer numero:"));
-num2 = parseFloat(prompt("ingresar el segundo numero:"));
-//num3 = parseFloat(prompt("ingresa el tercer numero"));
-suma = num1 + num2
-
-document.write("el resulrado de la suma es: "+ suma);
-
-num3 = parseFloat(prompt("ingresa el tercer numero para multiplicar con la suma anterior"));
-resultado = num3 + suma
-document.write("el resultado deñ numero tres es: " + resultado);*/
-
-
-
-
-// constantes son variables que no tienen cambios,  es decir cuando se le asigna un valor no se puede remover
-// get elemente by id es seleccionar un elemento del documento a traves del valor del id que se le haya asignado en el html
-// el metodo add event listener es yn escuchador que indica al navegador que este atento a la interaccion del usuario . la ventaja es que se escribe totalmente en JS sin necesidad de tocar html
-// function: basicamente un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para   que un procedimiento califique como funcion, debe tomar alguna entrada y devolver una salida donde hay alguna relacion obvia entre entrada y salida
-// if if else: ejecuta una sentencia si una condicion especifica es evaluada como verdadera. si la condicion es evaluada, otra puede ser ejecutada
-/* if (condicion){
-    etc etc 
-}else
-switch:
-
-*/
+$(document).ready(function(){
+    //$(".prueba_de_jquery").css({"background-color": "yellow"});
+    $(".btn_mostrar_naranja").click(function(){
+        $("#segundo").append("<p> 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore odio quibusdam illo hic adipisci, repellat aliquam officiis est alias porro impedit voluptatem facilis, aut nostrum, doloribus sint quia in officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet tenetur quod quis laudantium tempora, explicabo ex ut sequi cumque inventore dignissimos a dolorem quae maiores praesentium! Eligendi dolorum architecto officiis.</p>");
+    });
+});

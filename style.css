@@ -127,3 +127,33 @@ h3{
     margin: auto;
     margin-left: 10px;
 }
+
+.containerNaranja {
+    display: flex;
+    flex-direction: column;
+    background: orangered;
+    margin: 15px;
+}
+
+.naranja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 340px;
+}
+
+.naranja_texto {
+    color: white;
+    background: orange;
+    margin: 20px;
+    margin-inline: 160px;
+    margin-top: 20px;
+}
+
+.btn_mostar_naranja {
+    height: 46px;
+    width: 125px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
