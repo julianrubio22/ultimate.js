@@ -140,6 +140,7 @@ h3{
     flex-direction: row;
     justify-content: space-around;
     margin-inline: 340px;
+    margin-top: 15px;
 }
 
 .naranja_texto {
