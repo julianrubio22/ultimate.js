@@ -81,6 +81,7 @@ setInterval(actualizarReloj, 1000);
 
 actualizarReloj();
 
+
 //var nombre = prompt('hola, dime tu nombre');
 //alert("ahora estas en la matrix, " + nombre);
 //document.write("ahora estas en la matrix, " + nombre)
