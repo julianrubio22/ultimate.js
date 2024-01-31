@@ -31,7 +31,7 @@ function calcular() {
         pResultado.innerText = "= " + resultado;
         document.getElementById("resultado").style.display = "block"
     }else{
-        pResultado.style = "color: red;"
+        pResultado.style = "color: orange;"
         pResultado.innerText = "CALCULO IMPOSIBLE";
         document.getElementById("resultado").style.display = "block"
         

@@ -158,3 +158,55 @@ h3{
     cursor: pointer;
     font-size: 20px;
 }
+
+.containerVerde {
+    display: flex;
+    flex-direction: column;
+    background: green;
+    margin: 15px;
+}
+
+.verde {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 340px;
+    margin-top: 15px;
+}
+
+.verde_texto {
+    background: greenyellow;
+    margin: 20px;
+    margin-inline: 160px;
+    margin-top: 20px;
+}
+
+.btn_mostar_verde {
+    height: 46px;
+    width: 125px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.containerCeleste {
+    display: flex;
+    flex-direction: column;
+    background: cadetblue;
+    margin: 15px;
+}
+
+.celeste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 340px;
+    margin-top: 15px;
+}
+
+.celeste_texto {
+    background: skyblue;
+    margin: 20px;
+    margin-inline: 160px;
+    margin-top: 20px;
+}
