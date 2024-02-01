@@ -151,7 +151,7 @@ h3{
     margin-top: 20px;
 }
 
-.btn_mostar_naranja {
+.btnnaranja {
     height: 46px;
     width: 125px;
     margin-bottom: 20px;
@@ -181,7 +181,7 @@ h3{
     margin-top: 20px;
 }
 
-.btn_mostar_verde {
+.btnverde {
     height: 46px;
     width: 125px;
     margin-bottom: 20px;
@@ -209,4 +209,12 @@ h3{
     margin: 20px;
     margin-inline: 160px;
     margin-top: 20px;
+}
+
+.btnceleste {
+    height: 46px;
+    width: 125px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
 }

@@ -82,8 +82,9 @@ setInterval(actualizarReloj, 1000);
 actualizarReloj();
 
 $(document).ready(function(){
-    //$(".prueba_de_jquery").css({"background-color": "yellow"});
-    $(".btn_mostrar_naranja").click(function(){
-        $("#segundo").append("<p> 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore odio quibusdam illo hic adipisci, repellat aliquam officiis est alias porro impedit voluptatem facilis, aut nostrum, doloribus sint quia in officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet tenetur quod quis laudantium tempora, explicabo ex ut sequi cumque inventore dignissimos a dolorem quae maiores praesentium! Eligendi dolorum architecto officiis.</p>");
+    $(".btnnaranja").click(function(){
+         $("#segundo").fadeToggle();
+         $("#segundo").fadeToggle("slow");
+         $("#segundo").fadeToggle(2000);
     });
-});
+})
