@@ -87,4 +87,5 @@ $(document).ready(function(){
          $("#segundo").fadeToggle("slow");
          $("#segundo").fadeToggle(2000);
     });
+    $('.naranja').slick();
 })
