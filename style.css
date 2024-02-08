@@ -159,6 +159,13 @@ h3{
     font-size: 20px;
 }
 
+.btnnaranjaMenos {
+    height: 46px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 .containerVerde {
     display: flex;
     flex-direction: column;

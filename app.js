@@ -83,9 +83,14 @@ actualizarReloj();
 
 $(document).ready(function(){
     $(".btnnaranja").click(function(){
-         $("#segundo").fadeToggle();
-         $("#segundo").fadeToggle("slow");
-         $("#segundo").fadeToggle(2000);
+        $(".segundo").append("<p>hola mi gente</p>");
     });
-    $('.naranja').slick();
-})
+    
+    $(".btnnaranjaMenos").click(function(){
+        $(".segundo").hide();
+    });
+
+    $(".btnnaranja").click(function(){
+        $(".segundo").show();
+    });
+});
