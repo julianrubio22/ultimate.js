@@ -82,8 +82,18 @@ setInterval(actualizarReloj, 1000);
 actualizarReloj();
 
 $(document).ready(function(){
+
+    var counter = 0;
+
     $(".btnnaranja").click(function(){
-        $(".segundo").append("<p>hola mi gente</p>");
+
+        console.log(counter++);
+
+        console.log('hola');
+
+        if (checkCounter()) {
+            $(".segundo").append("<p class='mi-gente'>hola mi gente</p>");
+        }
     });
     
     $(".btnnaranjaMenos").click(function(){
@@ -93,4 +103,14 @@ $(document).ready(function(){
     $(".btnnaranja").click(function(){
         $(".segundo").show();
     });
+
+    function checkCounter() {
+      if (counter >= 3){
+        $('.btnnaranjaMenos').text('Has clickeado 3 veces');
+        $('.mi-gente').remove(); 
+        return false;
+      }
+     // console.log(counter);
+      return true;
+    };
 });
