@@ -226,3 +226,35 @@ h3{
     font-size: 20px;
 }
 
+/* linea para practicar grid */
+
+.contenedor{
+    background-color: lightsalmon;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+}
+
+.contenedor div {
+    background-color: lightblue;
+    border: 2px solid #09f;
+    border-radius: 5px;
+}
+
+.imggrid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(200px, 1fr)
+    );
+    gap: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.imggrid img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
