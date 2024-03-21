@@ -110,7 +110,7 @@ $(document).ready(function(){
         $('.mi-gente').remove(); 
         return false;
       }
-     // console.log(counter);
+     console.log(counter);
       return true;
     };
 });
