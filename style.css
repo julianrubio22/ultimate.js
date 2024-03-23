@@ -233,7 +233,11 @@ h3{
     border: 3px solid white;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+    grid-auto-rows: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    height: 300px;
+    align-items: ;
 }
 
 .contenedor div {
@@ -242,10 +246,23 @@ h3{
     border-radius: 5px;
 }
 
+.contenedor div:first-child{
+    background-color: lightgreen;
+    border: 2px solid green;
+    z-index: 9999;
+}
+
+.contenedor div:nth-child(2){
+    background-color: lightseagreen;
+    opacity: .5;
+}
+
+/*--------------------*/
+
 .imggrid {
     display: grid;
     grid-template-columns: repeat(
-        auto-fill,
+        auto-fit,
         minmax(200px, 1fr)
     );
     gap: 16px;
